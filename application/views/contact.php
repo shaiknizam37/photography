@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$url="http://cctcabs.com/photography/";
+$url="http://photographyclub.in/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,10 +13,10 @@ $url="http://cctcabs.com/photography/";
 
     <!-- Title -->
     <title>Photography Club | Contact</title>
-    
+
      <?php $this->load->view('header');?>
     <!-- Favicon -->
-  
+
     <!-- Breadcrumb Area Start -->
     <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(<?php echo $url;?>img/bg-img/38.jpg);">
         <div class="container h-100">
@@ -36,7 +36,7 @@ $url="http://cctcabs.com/photography/";
         </div>
     </section>
     <!-- Breadcrumb Area End -->
-    
+
     <!-- Contact Area Start -->
     <div class="contact-area section-padding-80-50">
         <div class="container">

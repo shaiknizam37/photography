@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$url="http://cctcabs.com/photography/";
+$url="http://photographyclub.in/";
 ?>
 
     <!-- Footer Area Start -->
@@ -41,7 +41,7 @@ $url="http://cctcabs.com/photography/";
     <script src="<?php echo $url;?>js/bootstrap.min.js"></script>
     <!-- All Plugins -->
     <script src="<?php echo $url;?>js/alime.bundle.js"></script>
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/jquery.flexslider.js"></script>
     <!-- Active -->
     <script src="<?php echo $url;?>js/default-assets/active.js"></script>

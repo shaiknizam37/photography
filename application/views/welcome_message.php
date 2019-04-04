@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$url="http://cctcabs.com/photography/";
+$url="http://photographyclub.in/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@ $url="http://cctcabs.com/photography/";
                                 <p data-animation="bounceInUp" data-delay="500ms"></p>
                                 <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
                                     <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">More</a>
-                                  
+
                                 </div>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ $url="http://cctcabs.com/photography/";
                                 <p data-animation="bounceInUp" data-delay="500ms"></p>
                                 <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
                                     <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">More</a>
-                                  
+
                                 </div>
                             </div>
                         </div>
@@ -83,7 +83,7 @@ $url="http://cctcabs.com/photography/";
                                 <p data-animation="bounceInUp" data-delay="500ms"></p>
                                 <div class="hero-btn-group" data-animation="bounceInUp" data-delay="900ms">
                                     <a href="#" class="btn alime-btn mb-3 mb-sm-0 mr-4">More</a>
-                                  
+
                                 </div>
                             </div>
                         </div>
@@ -168,7 +168,7 @@ $url="http://cctcabs.com/photography/";
                     </div>
                 </div>
 
-            
+
             </div>
 
             <div class="row">
@@ -179,7 +179,7 @@ $url="http://cctcabs.com/photography/";
         </div>
     </div>
     <!-- Gallery Area End -->
-    
+
     <!--Testimonials--->
     <style>
         .testimonial-container {
@@ -537,7 +537,7 @@ ul.cd-author-info li span {
 	</div>
 </div>
     <!--Testimonials Ends--->
-    
+
     <!-- Follow Area Start -->
     <section class="follow-area clearfix">
         <div class="container">

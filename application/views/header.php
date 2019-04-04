@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$url="http://cctcabs.com/photography/";
+$url="http://photographyclub.in/";
 ?>
     <!-- Favicon -->
     <link rel="icon" href="<?php echo $url;?>/img/pclogo.png">
@@ -79,12 +79,12 @@ $url="http://cctcabs.com/photography/";
                                         </ul>
                                     </li>
                                     <li><a href="/photography/index.php/gallery">Gallery</a></li>
-                                    
+
                                     <li><a href="/photography/index.php/contact">Contact</a></li>
                                 </ul>
-                                
+
                                 <!-- Search Icon -->
-                                
+
                             </div>
                             <!-- Nav End -->
                         </div>

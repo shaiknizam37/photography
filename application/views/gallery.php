@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-$url="http://cctcabs.com/photography/";
+$url="http://photographyclub.in/";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -13,7 +13,7 @@ $url="http://cctcabs.com/photography/";
 
     <!-- Title -->
     <title>Photography Club | Gallery</title>
-    
+
     <?php $this->load->view('header');?>
 
     <!-- Breadcrumb Area Start -->
