@@ -4,7 +4,6 @@ $url="http://photographyclub.in/";
 ?>
     <!-- Favicon -->
     <link rel="icon" href="<?php echo $url;?>/img/pclogo.png">
-
     <!-- Stylesheet -->
     <link rel="stylesheet" href="<?php echo $url;?>style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.7.0/flexslider.css">
