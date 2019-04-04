@@ -46,7 +46,7 @@ $url="http://photographyclub.in/";
                     <nav class="classy-navbar justify-content-between" id="alimeNav">
 
                         <!-- Logo -->
-                        <a class="nav-brand" href="./index.html"><img src="<?php echo $url;?>/img/pclogo.png" alt="" style="width:70px;height:50px"></a>
+                        <a class="nav-brand" href="http://photographyclub.in/"><img src="<?php echo $url;?>/img/pclogo.png" alt="" style="width:70px;height:50px"></a>
 
                         <!-- Navbar Toggler -->
                         <div class="classy-navbar-toggler">
