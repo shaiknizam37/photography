@@ -64,7 +64,7 @@ $url="http://photographyclub.in/";
                             <div class="classynav">
                                 <ul id="nav">
                                     <li class="active"><a href="http://photographyclub.in/">Home</a></li>
-                                    <li><a href="http://photographyclub.in/about">About</a></li>
+                                    <li><a href="http://photographyclub.in/index.php/about">About</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="dropdown" style="width:300px;">
                                             <li><a href="#">- Wedding</a>
@@ -78,9 +78,9 @@ $url="http://photographyclub.in/";
                                             <li><a href="#">- Corporate Photography</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="/photography/index.php/gallery">Gallery</a></li>
+                                    <li><a href="http://photographyclub.in/index.php/gallery">Gallery</a></li>
 
-                                    <li><a href="/photography/index.php/contact">Contact</a></li>
+                                    <li><a href="http://photographyclub.in/index.php/contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->
