@@ -63,8 +63,8 @@ $url="http://photographyclub.in/";
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul id="nav">
-                                    <li class="active"><a href="http://cctcabs.com/photography/">Home</a></li>
-                                    <li><a href="/photography/index.php/about">About</a></li>
+                                    <li class="active"><a href="http://photographyclub.in/">Home</a></li>
+                                    <li><a href="http://photographyclub.in/about">About</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="dropdown" style="width:300px;">
                                             <li><a href="#">- Wedding</a>
