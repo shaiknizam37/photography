@@ -82,9 +82,9 @@ $url="http://photographyclub.in/";
                 <div class="row">
                    <div class="col-12">
                         <div class="section-heading text-center">
-                            <h2>OUR Wedding Shoot</h2>
-                            <h4>PROFESSIONAL PHOTOGRAPHERS OF PHOTOGRAPHY CLUB</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo enim ipsam et dolore magnam aliquam quaerat voluptatem.</p>
+                            <h2 style="color:white;">OUR Wedding Shoot</h2>
+                            <h4 style="color:white;">PROFESSIONAL PHOTOGRAPHERS OF PHOTOGRAPHY CLUB</h4>
+                            <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo enim ipsam et dolore magnam aliquam quaerat voluptatem.</p>
                         </div>
                     </div>
                 </div>
