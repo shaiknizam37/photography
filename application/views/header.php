@@ -2,6 +2,11 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 $url="http://photographyclub.in/";
 ?>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
     <!-- Favicon -->
     <link rel="icon" href="<?php echo $url;?>/img/pclogo.png">
     <!-- Stylesheet -->
