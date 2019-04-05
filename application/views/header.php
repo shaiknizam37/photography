@@ -6,7 +6,7 @@ $url="http://photographyclub.in/";
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
+
     <!-- Favicon -->
     <link rel="icon" href="<?php echo $url;?>/img/pclogo.png">
     <!-- Stylesheet -->
@@ -73,7 +73,7 @@ $url="http://photographyclub.in/";
                                         <ul class="dropdown" style="width:300px;">
                                             <li><a href="#">- Wedding</a>
                                                 <ul class="dropdown" style="width:300px;">
-                                                    <li><a href="#">- Wedding Shoot</a></li>
+                                                    <li><a href="http://photographyclub.in/index.php/weddingshoot">- Wedding Shoot</a></li>
                                                     <li><a href="#">- Prewedding Shoot </a></li>
                                                     <li><a href="#">- Engagement </a></li>
                                                     <li><a href="#">- Candid Wedding </a></li>
