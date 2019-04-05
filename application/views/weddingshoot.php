@@ -42,13 +42,16 @@ $url="http://photographyclub.in/";
                       <form action="#" method="post">
                           <div class="row">
                               <div class="col-12 col-md-6">
-                                  <input type="text" name="message-name" class="form-control mb-30" placeholder="Your Name">
+                                  <input type="text" name="message-name" class="form-control mb-30" placeholder="First Name">
+                              </div>
+                              <div class="col-12 col-md-6">
+                                  <input type="text" name="message-name" class="form-control mb-30" placeholder="Last Name">
                               </div>
                               <div class="col-12 col-md-6">
                                   <input type="email" name="message-email" class="form-control mb-30" placeholder="Email">
                               </div>
                               <div class="col-12 col-md-6">
-                                  <input type="text" name="number" class="form-control mb-30" placeholder="Number">
+                                  <input type="text" name="number" class="form-control mb-30" placeholder="Phone Number">
                               </div>
                               <div class="col-12">
                                   <textarea name="message" class="form-control mb-30" placeholder="Messages"></textarea>
@@ -74,7 +77,7 @@ $url="http://photographyclub.in/";
     <!-- About Us Area End -->
 
         <!-- Gallery Area Start -->
-        <div class="alime-portfolio-area section-padding-80 clearfix">
+        <div class="alime-portfolio-area section-padding-80 clearfix" style="background:black;">
             <div class="container-fluid">
                 <div class="row">
                    <div class="col-12">
@@ -148,12 +151,6 @@ $url="http://photographyclub.in/";
                     </div>
 
 
-                </div>
-
-                <div class="row">
-                    <div class="col-12 text-center wow fadeInUp" data-wow-delay="700ms">
-                        <a href="#" class="btn alime-btn btn-2 mt-15">View More</a>
-                    </div>
                 </div>
             </div>
         </div>
