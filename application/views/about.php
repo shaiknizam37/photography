@@ -116,7 +116,7 @@ $url="http://photographyclub.in/";
                           Best	in	class	customer
                           support	 team	round	 the
                           clock</p>
-                          </br></br>
+                          </br>
                     </div>
                 </div>
             </div>
