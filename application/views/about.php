@@ -42,7 +42,7 @@ $url="http://photographyclub.in/";
                                                                         capturing	the	best	of	you,	by	the	best
                                                                         of	the	best	professionals</p>
                         <p class="wow fadeInUp" data-wow-delay="400ms">Taking	your	business	 to	the	next	level
-                                                                        with	the	best	photography	experience.	
+                                                                        with	the	best	photography	experience.
                                                                         Showing	what	your	customers	love</p>
                         <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
                     </div>
@@ -116,6 +116,7 @@ $url="http://photographyclub.in/";
                           Best	in	class	customer
                           support	 team	round	 the
                           clock</p>
+                          </br></br>
                     </div>
                 </div>
             </div>
