@@ -71,11 +71,16 @@ $url="http://photographyclub.in/";
                 <!-- Single Why Choose Area -->
                 <div class="col-md-6 col-lg-4">
                     <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
-                        <div class="chosse-us-icon">
-                            <i class="fa fa-film" aria-hidden="true"></i>
-                        </div>
-                        <h4>High Quality Images</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                          <img src="<?php echo $url;?>img/bg-img/11.jpg" alt="">
+                          <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
+                              <a href="#">
+                                <h4>Wedding</h4>
+                               <span>We	capture	the	most	precious
+                                      moments	of	your	life	and	make	you
+                                      relive	the	feeling</span>
+                              </a>
+                          </div>
+
                     </div>
                 </div>
 
