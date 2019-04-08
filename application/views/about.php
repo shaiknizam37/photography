@@ -38,8 +38,12 @@ $url="http://photographyclub.in/";
                     <div class="about-us-content mb-80">
                         <h3 class="wow fadeInUp" data-wow-delay="100ms">We Live For Passion</h3>
                         <div class="line wow fadeInUp" data-wow-delay="200ms"></div>
-                        <p class="wow fadeInUp" data-wow-delay="300ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo enim ipsam et dolore magnam aliquam quaerat voluptatem.</p>
-                        <p class="wow fadeInUp" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et do sunt explicabo. Nemo enim ipsam et dolore magnam aliquam quaerat voluptatem.</p>
+                        <p class="wow fadeInUp" data-wow-delay="300ms">We	make	your	dream	come	true	by
+                                                                        capturing	the	best	of	you,	by	the	best
+                                                                        of	the	best	professionals</p>
+                        <p class="wow fadeInUp" data-wow-delay="400ms">Taking	your	business	 to	the	next	level
+                                                                        with	the	best	photography	experience.	
+                                                                        Showing	what	your	customers	love</p>
                         <a class="btn alime-btn btn-2 mt-30 wow fadeInUp" data-wow-delay="500ms" href="#">Contact Us</a>
                     </div>
                 </div>
@@ -71,16 +75,16 @@ $url="http://photographyclub.in/";
                 <!-- Single Why Choose Area -->
                 <div class="col-md-6 col-lg-4">
                     <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="100ms">
-                          <img src="<?php echo $url;?>img/bg-img/11.jpg" alt="">
-                          <div class="instagram-hover-content text-center d-flex align-items-center justify-content-center">
-                              <a href="#">
-                                <h4>Wedding</h4>
-                               <span>We	capture	the	most	precious
-                                      moments	of	your	life	and	make	you
-                                      relive	the	feeling</span>
-                              </a>
-                          </div>
-
+                        <div class="chosse-us-icon">
+                            <i class="fa fa-certificate" aria-hidden="true"></i>
+                        </div>
+                        <h4>Certification</h4>
+                        <p>All	the	photographers	 are
+                            trained	and	certified	by
+                            the	industry	experts.
+                            Different	grades	provided
+                            for	each	based	on
+                            technical	criterias</p>
                     </div>
                 </div>
 
@@ -88,10 +92,15 @@ $url="http://photographyclub.in/";
                 <div class="col-md-6 col-lg-4">
                     <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="300ms">
                         <div class="chosse-us-icon">
-                            <i class="fa fa-pencil" aria-hidden="true"></i>
+                            <i class="fa fa-graduation-cap" aria-hidden="true"></i>
                         </div>
-                        <h4>Abundant Experience</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                        <h4>Training</h4>
+                        <p>Checklist	for	each	project
+                            to	ensure	all
+                            requirements	are	being
+                            met.	Trained	professionals
+                            to	provide	 client
+                            satisfaction</p>
                     </div>
                 </div>
 
@@ -99,10 +108,14 @@ $url="http://photographyclub.in/";
                 <div class="col-md-6 col-lg-4">
                     <div class="why-choose-us-content text-center mb-80 wow fadeInUp" data-wow-delay="500ms">
                         <div class="chosse-us-icon">
-                            <i class="fa fa-camera" aria-hidden="true"></i>
+                            <i class="fa fa-user" aria-hidden="true"></i>
                         </div>
-                        <h4>Modern Equipments</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut elit, sed do eiusmod te</p>
+                        <h4>Customer Service</h4>
+                        <p>Dedicated	specialists
+                          assigned	to	each	project.
+                          Best	in	class	customer
+                          support	 team	round	 the
+                          clock</p>
                     </div>
                 </div>
             </div>
