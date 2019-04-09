@@ -76,6 +76,10 @@ $url="http://photographyclub.in/";
                                             <li><a href="#">- Engagement </a></li>
                                             <li><a href="#">- Candid Wedding </a></li>
                                             <li><a href="#">- Corporate Photography</a></li>
+                                            <li><a href="#">- Baby shower Photography</a></li>
+                                            <li><a href="#">- Birthday Photography</a></li>
+                                            <li><a href="#">- Maternity Photography</a></li>
+                                            <li><a href="#">- Candid Videography</a></li>
                                           </li>
                                         </ul>
                                     </li>
