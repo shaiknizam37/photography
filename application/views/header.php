@@ -71,15 +71,12 @@ $url="http://photographyclub.in/";
                                     <li><a href="http://photographyclub.in/index.php/about">About</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="dropdown" style="width:300px;">
-                                            <li><a href="#">- Wedding</a>
-                                                <ul class="dropdown" style="width:300px;">
-                                                    <li><a href="http://photographyclub.in/index.php/weddingshoot">- Wedding Shoot</a></li>
-                                                    <li><a href="#">- Prewedding Shoot </a></li>
-                                                    <li><a href="#">- Engagement </a></li>
-                                                    <li><a href="#">- Candid Wedding </a></li>
-                                                </ul>
-                                            </li>
+                                            <li><a href="http://photographyclub.in/index.php/weddingshoot">- Wedding Shoot</a></li>
+                                            <li><a href="#">- Prewedding Shoot </a></li>
+                                            <li><a href="#">- Engagement </a></li>
+                                            <li><a href="#">- Candid Wedding </a></li>
                                             <li><a href="#">- Corporate Photography</a></li>
+                                          </li>
                                         </ul>
                                     </li>
                                     <li><a href="http://photographyclub.in/index.php/gallery">Gallery</a></li>
