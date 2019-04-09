@@ -103,9 +103,9 @@ $url="http://photographyclub.in/";
                     <!-- Single Gallery Item -->
                  <div class="col-12 col-sm-6 col-lg-4 single_gallery_item video country  wow fadeInUp" data-wow-delay="100ms" style="padding:5px;box-shadow: 0 2px 10px 0 grey;">
                         <div class="single-portfolio-content">
-                            <img src="<?php echo $url;?>img/bg-img/w2.jpg" alt="">
+                            <img src="<?php echo $url;?>img/bg-img/W2.jpg" alt="">
                             <div class="hover-content">
-                                <a href="<?php echo $url;?>img/bg-img/w2.jpg" class="portfolio-img">+</a>
+                                <a href="<?php echo $url;?>img/bg-img/W2.jpg" class="portfolio-img">+</a>
                             </div>
                         </div>
                     </div>
@@ -113,9 +113,9 @@ $url="http://photographyclub.in/";
                     <!-- Single Gallery Item -->
                     <div class="col-12 col-sm-6 col-lg-4 single_gallery_item video country  wow fadeInUp" data-wow-delay="100ms" style="padding:5px;box-shadow: 0 2px 10px 0 grey;">
                         <div class="single-portfolio-content">
-                            <img src="<?php echo $url;?>img/bg-img/w3.jpg" alt="">
+                            <img src="<?php echo $url;?>img/bg-img/W3.jpg" alt="">
                             <div class="hover-content">
-                                <a href="<?php echo $url;?>img/bg-img/w3.jpg" class="portfolio-img">+</a>
+                                <a href="<?php echo $url;?>img/bg-img/W3.jpg" class="portfolio-img">+</a>
                             </div>
                         </div>
                     </div>
