@@ -13,7 +13,9 @@ class Dashboard extends Certification_Controller
   }
   public function login()
   {
+
     $this->load->library('form_validation');
+    $this->form_validation->set_error_delimiters('<div style="color:red">', '</div>');
     $this->form_validation->set_rules('password', 'Password', 'required');
     $this->form_validation->set_rules('email', 'Email', 'required|is_unique[users.email]');
     if ($this->form_validation->run() == FALSE)

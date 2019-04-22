@@ -47,19 +47,20 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <div class="row">
                            <div class="col-sm-10 col-sm-offset-1">
                               <form class="new_user" action="/certification/dashboard/login" method="post">
-                                <?php echo validation_errors(); ?>
                                 <?php echo form_open('form'); ?>
                                  <div class="form-group">
                                     <label class="control-label" for="user_email">Email Address</label>
                                     <div class="control-input">
                                        <input class="form-control input-hg" type="email" name="email" value="<?php echo set_value('email'); ?>"/>
                                     </div>
+                                    <?php echo form_error('email', '<div style="color:red">', '</div>'); ?>
                                  </div>
                                  <div class="form-group">
                                     <label class="control-label" for="user_password">Password</label>
                                     <div class="control-input">
                                        <input class="form-control input-hg" type="password" name="password" />
                                     </div>
+                                    <?php echo form_error('password', '<div style="color:red">', '</div>'); ?>
                                  </div>
                                  <br>
                                  <div class="form-group text-center">
