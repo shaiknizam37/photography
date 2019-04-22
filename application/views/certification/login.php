@@ -28,7 +28,7 @@
                   <!-- Site logo -->
                   <a class='navbar-brand header-logo' href='index.html'>
                   <span class="sr-only">PHOTOGRAPHY CLUB</span>
-                  <img src="img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
+                  <img src="<?php echo URL;?>img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
                   </a>
                </div>
             </div>
