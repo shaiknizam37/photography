@@ -20,7 +20,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <script src="<?php echo URL;?>certification/js/application.js" data-turbolinks-track="true"></script>
       <script src="<?php echo URL;?>certification/js/student.js"></script>
       <!-- HEADER -->
-      <header>
+      <!-- HEADER -->
+      <header class=''>
          <!-- Navbar -->
          <div class="navbar navbar-fedora navbar-fixed-top is-at-top bs-docs-nav is-not-signed-in" id='navbar' role='navigation'>
             <div class='container'>
@@ -28,7 +29,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <!-- Site logo -->
                   <a class='navbar-brand header-logo' href='index.html'>
                   <span class="sr-only">PHOTOGRAPHY CLUB</span>
-                  <img src="<?php echo URL;?>certification/img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
+                  <img src="img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
                   </a>
                </div>
             </div>
@@ -38,38 +39,40 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          <div class="gray-layout">
             <div class="container on-a-school-layout">
                <div class="row">
-                  <div class="col-sm-12">
+                  <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 text-center">
                      <div class="content-box">
                         <h1 class="text-center">
-                           Photography Club Registration
+                           Log In to PHOTOGRAPHY CLUB
                         </h1>
                         <div class="row">
-                           <div class="col-sm-6 col-sm-offset-1">
+                           <div class="col-sm-10 col-sm-offset-1">
                               <form class="new_user" id="new_user" action="included_courses.html" accept-charset="UTF-8" method="post">
+                                 <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WPdVxiETeu6jIwVUv4Xg2F/fsv5OXRRZtOlL5apL2WK5Taog44s7bLNKOAJ5WAbGwAZQ5flXfx8mKwXABsxNLQ==" />
+                                 <input value="37700" type="hidden" name="user[school_id]" id="user_school_id" />
                                  <div class="form-group">
-                                    <label class="control-label" for="user_email">Email</label>
+                                    <label class="control-label" for="user_email">Email Address</label>
                                     <div class="control-input">
-                                       <input class="form-control input-hg" type="email" value="" name="email"/>
+                                       <input autofocus="autofocus" class="form-control input-hg" type="email" value="" name="user[email]" id="user_email" />
                                     </div>
                                  </div>
                                  <div class="form-group">
-                                    <label class="control-label" for="user_email">Password</label>
+                                    <label class="control-label" for="user_password">Password</label>
                                     <div class="control-input">
-                                       <input class="form-control input-hg" type="password"  name="password"/>
+                                       <input autocomplete="off" class="form-control input-hg" type="password" name="user[password]" id="user_password" />
                                     </div>
                                  </div>
                                  <br>
                                  <div class="form-group text-center">
-                                    <input type="submit" name="submit" value="Log In" class="btn btn-primary btn-md login-button"/>
+                                    <input type="submit" name="commit" value="Log In" class="btn btn-primary btn-md login-button" />
                                  </div>
                                  <br>
                                  <center>
-                                    <a class="link-below-button" href="">Forgot Password?</a>
+                                    <a class="link-below-button" href="/secure/37700/users/password/new">Forgot Password?</a>
                                  </center>
                               </form>
                            </div>
                         </div>
-                        <div class="box-footer"><a href="">Create an Account</a></div>
+                        <div class="box-footer"><a href="/secure/37700/users/sign_up?flow_school_id=37700">Create an Account</a></div>
                      </div>
                   </div>
                </div>
@@ -89,4 +92,4 @@ defined('BASEPATH') OR exit('No direct script access allowed');
          </footer>
       </div>
       </body>
-</html>
+      </html>
