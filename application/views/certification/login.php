@@ -46,7 +46,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </h1>
                         <div class="row">
                            <div class="col-sm-10 col-sm-offset-1">
-                              <form class="new_user" action="/certification/login" method="post">
+                              <form class="new_user" action="/certification/dashboard/login" method="post">
                                 <?php echo validation_errors(); ?>
                                 <?php echo form_open('form'); ?>
                                  <div class="form-group">
