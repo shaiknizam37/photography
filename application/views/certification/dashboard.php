@@ -47,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Site logo -->
 
           <a class='navbar-brand header-logo' href='index.html'>
-            <span class="sr-only">THE PHOTOGRAPHY CLUB</span>
+            <span class="sr-only">THE PHOTOGRAPHY CLUB <?php echo $size;?></span>
             <img src="<?php echo URL;?>certification/img/logo.png" alt="THE PHOTOGRAPHY CLUB"  />
           </a>
 
