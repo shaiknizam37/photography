@@ -68,11 +68,11 @@ $url="http://photographyclub.in/";
                             <div class="classynav">
                                 <ul id="nav">
                                     <li class="active"><a href="http://photographyclub.in/">Home</a></li>
-                                    <li><a href="http://photographyclub.in/index.php/about">About</a></li>
+                                    <li><a href="/about">About</a></li>
                                     <li><a href="#">Services</a>
                                         <ul class="dropdown" style="width:300px;">
-                                            <li><a href="http://photographyclub.in/index.php/weddingshoot">- Wedding Shoot</a></li>
-                                            <li><a href="http://photographyclub.in/index.php/prewedding">- Prewedding Shoot </a></li>
+                                            <li><a href="/weddingshoot">- Wedding Shoot</a></li>
+                                            <li><a href="/prewedding">- Prewedding Shoot </a></li>
                                             <li><a href="#">- Engagement </a></li>
                                             <li><a href="#">- Candid Wedding </a></li>
                                             <li><a href="#">- Corporate Photography</a></li>
@@ -83,9 +83,9 @@ $url="http://photographyclub.in/";
                                           </li>
                                         </ul>
                                     </li>
-                                    <li><a href="http://photographyclub.in/index.php/gallery">Gallery</a></li>
+                                    <li><a href="/gallery">Gallery</a></li>
 
-                                    <li><a href="http://photographyclub.in/index.php/contact">Contact</a></li>
+                                    <li><a href="/contact">Contact</a></li>
                                 </ul>
 
                                 <!-- Search Icon -->
