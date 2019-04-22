@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
-	'database' => '',
+	'hostname' => 'ec2-18-188-72-202.us-east-2.compute.amazonaws.com',
+	'username' => 'shaik',
+	'password' => 'Shaik@123',
+	'database' => 'photography_club',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
