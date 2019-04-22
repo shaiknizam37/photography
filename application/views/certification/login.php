@@ -45,7 +45,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            Sign In to Photography Club
                         </h1>
                         <div class="row">
-                          <?php  if($size){ echo $size};?>
+                          <?php  if($size){ echo $size; }?>
                            <div class="col-sm-10 col-sm-offset-1">
                               <form class="new_user" action="/certification/dashboard/login" method="post">
                                 <?php echo form_open('form'); ?>
