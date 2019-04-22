@@ -15,7 +15,7 @@ class Dashboard extends Certification_Controller
   {
     $this->load->database();
     $this->load->model('log_no');
-    $query = $this->db->select('log_no')->get_where('log', array('log_no' =>1))->result();
+    $query = $this->db->select('log_no')->get_where('log', array('log_no' =>'1'))->result();
     print_r($query);
   }
   public function login()
