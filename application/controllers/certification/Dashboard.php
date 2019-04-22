@@ -32,16 +32,16 @@ class Dashboard extends Certification_Controller
         );
     if ($this->form_validation->run() == FALSE)
     {
-      $this->load->model('trainee_personal_data');
-      $query = $this->db->select('no')->get_where('trainee_personal_data', array('email' => $this->input->post('email'),'password'=>$this->input->post('password')))->result();
-      $data=array(
-        'size'=>sizeof($query)
-      );
-      $this->load->view('certification/login',$data);
+      $this->load->view('certification/login');
     }
     else
     {
-           $this->load->view('certification/dashboard');
+          $this->load->model('trainee_personal_data');
+          $query = $this->db->select('no')->get_where('trainee_personal_data', array('email' => $this->input->post('email'),'password'=>$this->input->post('password')))->result();
+          $data=array(
+            'size'=>sizeof($query)
+          );
+           $this->load->view('certification/dashboard',$data);
     }
   }
 }
