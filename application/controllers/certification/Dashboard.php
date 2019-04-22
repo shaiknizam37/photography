@@ -11,6 +11,13 @@ class Dashboard extends Certification_Controller
   {
       $this->load->view('certification/login');
   }
+  public function data()
+  {
+    $this->load->database();
+    $this->load->model('log_no');
+    $query = $this->db->select('log_no')->get_where('log', array('log_no' =>1))->result();
+    print_r($query);
+  }
   public function login()
   {
 
@@ -37,7 +44,6 @@ class Dashboard extends Certification_Controller
     else
     {
           $this->load->model('trainee_personal_data');
-          $query = $this->db->select('no')->get_where('trainee_personal_data', array('email' => $this->input->post('email'),'password'=>$this->input->post('password')))->result();
           $data=array(
             'size'=>sizeof($query)
           );
