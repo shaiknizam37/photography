@@ -23,10 +23,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="<?php echo URL;?>certification/js/application-392c65ce02d4ed1301d5397d98dc08dfd5806f7cdfcf23a93f81606bf6cacd56.js" data-turbolinks-track="true"></script>
 <script src="<?php echo URL;?>certification/js/student-f26a4bcc75b257dba627.js"></script>
 
-
-
-
-
   </head>
   <body>
           <meta http-content='IE=Edge' http-equiv='X-UA-Compatible'>
