@@ -74,12 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;port=3360;dbname=photography_club',
+	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'shaik',
 	'password' => 'Shaik@123',
 	'database' => 'photography_club',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'PDO',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
