@@ -44,44 +44,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            Photography Club Registration
                         </h1>
                         <div class="row">
-                           <div class="col-sm-10 col-sm-offset-1">
+                           <div class="col-sm-6 col-sm-offset-1">
                               <form class="new_user" id="new_user" action="included_courses.html" accept-charset="UTF-8" method="post">
-                                 <div class="form-group col-sm-6">
-                                    <label class="control-label" for="user_email">First Name</label>
+                                 <div class="form-group">
+                                    <label class="control-label" for="user_email">Email</label>
                                     <div class="control-input">
-                                       <input autofocus="autofocus" class="form-control input-hg" type="text" value="" name="first_name" id="user_email" />
+                                       <input class="form-control input-hg" type="email" value="" name="email"/>
                                     </div>
                                  </div>
-                                 <div class="form-group col-sm-6">
-                                    <label class="control-label" for="user_email">Last Name</label>
+                                 <div class="form-group">
+                                    <label class="control-label" for="user_email">Password</label>
                                     <div class="control-input">
-                                       <input autofocus="autofocus" class="form-control input-hg" type="email" value="" name="first_name" id="user_email" />
-                                    </div>
-                                 </div>
-                                <div class="form-group col-sm-6">
-                                    <label class="control-label" for="user_email">Mobile Number</label>
-                                    <div class="control-input">
-                                       <input autofocus="autofocus" class="form-control input-hg" type="email" value="" name="first_name" id="user_email" />
-                                    </div>
-                                 </div>
-                                 <div class="form-group col-sm-6">
-                                    <label class="control-label" for="user_password">Email</label>
-                                    <div class="control-input">
-                                       <input autocomplete="off" class="form-control input-hg" type="email" name="user[password]" id="user_password" />
+                                       <input class="form-control input-hg" type="password"  name="password"/>
                                     </div>
                                  </div>
                                  <br>
                                  <div class="form-group text-center">
-                                    <input type="submit" name="commit" value="Log In" class="btn btn-primary btn-md login-button" />
+                                    <input type="submit" name="submit" value="Log In" class="btn btn-primary btn-md login-button"/>
                                  </div>
                                  <br>
                                  <center>
-                                    <a class="link-below-button" href="/secure/37700/users/password/new">Forgot Password?</a>
+                                    <a class="link-below-button" href="">Forgot Password?</a>
                                  </center>
                               </form>
                            </div>
                         </div>
-                        <div class="box-footer"><a href="/secure/37700/users/sign_up?flow_school_id=37700">Create an Account</a></div>
+                        <div class="box-footer"><a href="">Create an Account</a></div>
                      </div>
                   </div>
                </div>
