@@ -84,7 +84,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class='col-xs-12 col-sm-4 col-md-4 footer-column'>
                      <p>
                         &copy;
-                        PHOTOGRAPHY CLUB
+                        Photography Club
                      </p>
                   </div>
                </div>
