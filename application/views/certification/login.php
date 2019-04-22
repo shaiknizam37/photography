@@ -48,12 +48,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            <div class="col-sm-10 col-sm-offset-1">
                               <form class="new_user" action="/certification/login" method="post">
                                 <?php echo validation_errors(); ?>
-                                
                                 <?php echo form_open('form'); ?>
                                  <div class="form-group">
                                     <label class="control-label" for="user_email">Email Address</label>
                                     <div class="control-input">
-                                       <input class="form-control input-hg" type="email" name="email" />
+                                       <input class="form-control input-hg" type="email" name="email" value="<?php echo set_value('email'); ?>"/>
                                     </div>
                                  </div>
                                  <div class="form-group">

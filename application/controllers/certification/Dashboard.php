@@ -11,4 +11,8 @@ class Dashboard extends Certification_Controller
   {
       $this->load->view('certification/login');
   }
+  public function login()
+  {
+      $this->load->view('certification/login');
+  }
 }
