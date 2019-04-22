@@ -28,7 +28,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                <div class='navbar-header'>
                   <!-- Site logo -->
                   <a class='navbar-brand header-logo' href='index.html'>
-                  <span class="sr-only">PHOTOGRAPHY CLUB</span>
+                  <span class="sr-only">Photography Club</span>
                   <img src="<?php echo URL;?>certification/img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
                   </a>
                </div>
@@ -42,37 +42,38 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   <div class="col-lg-6 col-lg-offset-3 col-sm-8 col-sm-offset-2 text-center">
                      <div class="content-box">
                         <h1 class="text-center">
-                           Log In to PHOTOGRAPHY CLUB
+                           Sign In to Photography Club
                         </h1>
                         <div class="row">
                            <div class="col-sm-10 col-sm-offset-1">
-                              <form class="new_user" id="new_user" action="included_courses.html" accept-charset="UTF-8" method="post">
-                                 <input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="WPdVxiETeu6jIwVUv4Xg2F/fsv5OXRRZtOlL5apL2WK5Taog44s7bLNKOAJ5WAbGwAZQ5flXfx8mKwXABsxNLQ==" />
-                                 <input value="37700" type="hidden" name="user[school_id]" id="user_school_id" />
+                              <form class="new_user" action="/certification/login" method="post">
+                                <?php echo validation_errors(); ?>
+                                
+                                <?php echo form_open('form'); ?>
                                  <div class="form-group">
                                     <label class="control-label" for="user_email">Email Address</label>
                                     <div class="control-input">
-                                       <input autofocus="autofocus" class="form-control input-hg" type="email" value="" name="user[email]" id="user_email" />
+                                       <input class="form-control input-hg" type="email" name="email" />
                                     </div>
                                  </div>
                                  <div class="form-group">
                                     <label class="control-label" for="user_password">Password</label>
                                     <div class="control-input">
-                                       <input autocomplete="off" class="form-control input-hg" type="password" name="user[password]" id="user_password" />
+                                       <input class="form-control input-hg" type="password" name="password" />
                                     </div>
                                  </div>
                                  <br>
                                  <div class="form-group text-center">
-                                    <input type="submit" name="commit" value="Log In" class="btn btn-primary btn-md login-button" />
+                                    <input type="submit" value="Sign In" class="btn btn-primary btn-md login-button" />
                                  </div>
                                  <br>
                                  <center>
-                                    <a class="link-below-button" href="/secure/37700/users/password/new">Forgot Password?</a>
+                                    <a class="link-below-button" href="/certification/forgotpassword">Forgot Password?</a>
                                  </center>
                               </form>
                            </div>
                         </div>
-                        <div class="box-footer"><a href="/secure/37700/users/sign_up?flow_school_id=37700">Create an Account</a></div>
+                        <div class="box-footer"><a href="/register">Create an Account</a></div>
                      </div>
                   </div>
                </div>
