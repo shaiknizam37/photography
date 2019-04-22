@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <?php  $this->load->view('website/header');?>
     <div class="swiper-main-slider-fade swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background-image:url('img/slider/slide13.jpg');">
+            <div class="swiper-slide" style="background-image:url('vendor/website/img/slider/slide13.jpg');">
                 <div class="container">
                     <div class="slider-content left-holder">
                         <h2 class="animated fadeInDown"> Creative Consulting Agency <br>For Smart Solutions. </h2>
@@ -17,7 +17,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" style="background-image:url('img/slider/slide11.jpg');">
+            <div class="swiper-slide" style="background-image:url('vendor/website/img/slider/slide11.jpg');">
                 <div class="container">
                     <div class="slider-content left-holder">
                         <h2 class="animated fadeInDown"> We will help to improve<br>your business </h2>
@@ -30,7 +30,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide" style="background-image:url('img/slider/slide12.jpg');">
+            <div class="swiper-slide" style="background-image:url('vendor/website/img/slider/slide12.jpg');">
                 <div class="container">
                     <div class="slider-content left-holder">
                         <h2 class="animated fadeInDown"> Building a Succesfull Business </h2>
