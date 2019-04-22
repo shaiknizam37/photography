@@ -8,10 +8,8 @@
       <link href='img/favicons/favicon.ico' rel='icon' type='image/png'>
       <meta name='apple-mobile-web-app-capable' content='yes' />
       <meta charset="UTF-8">
-      <meta name="csrf-param" content="authenticity_token" />
-      <meta name="csrf-token" content="bqRyKw1zPGDQz88ziKXGW4aXjdjHada94FLwHXMiG7EdsaMtnMtJ97adbhBre3GTLOKCD8L/XslNFSoEw6q2rw==" />
       <link rel="stylesheet" media="screen" href="css/bootstrap.css" data-turbolinks-track="true" />
-      <link href="css/style-82475caffdf84a102e6ba777aba7d3f7d0d22ddd.css" rel="stylesheet" data-turbolinks-track="true">
+      <link href="<?php echo URL;?>css/style.css" rel="stylesheet" data-turbolinks-track="true">
       </link>
       <title>THE PHOTOGRAPHY CLUB</title>
       <meta name="brand_video_player_color" content="#ed6c35" />
@@ -19,8 +17,8 @@
       <script src='//fast.wistia.com/assets/external/E-v1.js'></script>
       <script src='https://www.google.com/recaptcha/api.js' async defer></script>
       <script src=""></script>
-      <script src="js/application.js" data-turbolinks-track="true">
-      </script><script src="js/student.js"></script>
+      <script src="<?php echo URL;?>js/application.js" data-turbolinks-track="true">
+      </script><script src="<?php echo URL;?>js/student.js"></script>
       <!-- HEADER -->
       <header class=''>
          <!-- Navbar -->
