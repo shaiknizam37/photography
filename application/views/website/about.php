@@ -1,4 +1,7 @@
-<?php include"header.php";?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<?php  $this->load->view('website/header');?>
     <div class="page-title-section" style="background-image: url('img/bg/pagetitle.jpg');">
         <div class="container">
             <h1>About Us</h1>
@@ -176,4 +179,4 @@
             </div>
         </div>
     </div>
-    <?php include"footer.php";?>
+  <?php  $this->load->view('website/footer');?>

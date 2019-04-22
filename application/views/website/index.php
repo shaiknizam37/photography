@@ -1,4 +1,7 @@
-<?php include"header.php";?>
+<?php
+defined('BASEPATH') OR exit('No direct script access allowed');
+?>
+<?php  $this->load->view('website/header');?>
     <div class="swiper-main-slider-fade swiper-container">
         <div class="swiper-wrapper">
             <div class="swiper-slide" style="background-image:url('img/slider/slide13.jpg');">
@@ -266,4 +269,4 @@
         </div>
     </div>
 
-  <?php include"footer.php";?>
+<?php  $this->load->view('website/footer');?>
