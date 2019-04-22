@@ -8,7 +8,7 @@
       <link href='img/favicons/favicon.ico' rel='icon' type='image/png'>
       <meta name='apple-mobile-web-app-capable' content='yes' />
       <meta charset="UTF-8">
-      <link rel="stylesheet" media="screen" href="css/bootstrap.css" data-turbolinks-track="true" />
+      <link rel="stylesheet" media="screen" href="<?php echo URL;?>certification/css/bootstrap.css" data-turbolinks-track="true" />
       <link href="<?php echo URL;?>css/style.css" rel="stylesheet" data-turbolinks-track="true">
       </link>
       <title>THE PHOTOGRAPHY CLUB</title>
@@ -17,8 +17,8 @@
       <script src='//fast.wistia.com/assets/external/E-v1.js'></script>
       <script src='https://www.google.com/recaptcha/api.js' async defer></script>
       <script src=""></script>
-      <script src="<?php echo URL;?>js/application.js" data-turbolinks-track="true">
-      </script><script src="<?php echo URL;?>js/student.js"></script>
+      <script src="<?php echo URL;?>certification/js/application.js" data-turbolinks-track="true">
+      </script><script src="<?php echo URL;?>certification/js/student.js"></script>
       <!-- HEADER -->
       <header class=''>
          <!-- Navbar -->
@@ -28,7 +28,7 @@
                   <!-- Site logo -->
                   <a class='navbar-brand header-logo' href='index.html'>
                   <span class="sr-only">PHOTOGRAPHY CLUB</span>
-                  <img src="<?php echo URL;?>img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
+                  <img src="<?php echo URL;?>certification/img/logo.png" alt="THE PHOTOGRAPHY CLUB" />
                   </a>
                </div>
             </div>
