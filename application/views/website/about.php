@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <?php  $this->load->view('website/header');?>
-    <div class="page-title-section" style="background-image: url('img/bg/pagetitle.jpg');">
+    <div class="page-title-section" style="background-image: url('<?php echo URL;?>website/img/bg/pagetitle.jpg');">
         <div class="container">
             <h1>About Us</h1>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
             </ul>
         </div>
     </div>
@@ -32,11 +32,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-sm-6 col-12"> <img src="img/content/home5.jpg" class="rounded-border shadow-primary mt-15-xs" alt="img"> </div>
+                <div class="col-md-6 col-sm-6 col-12"> <img src="<?php echo URL;?>website/img/content/home5.jpg" class="rounded-border shadow-primary mt-15-xs" alt="img"> </div>
             </div>
         </div>
     </div>
-    <div class="section-block-bg" style="background-image: url('img/bg/bg11.jpg');">
+    <div class="section-block-bg" style="background-image: url('<?php echo URL;?>website/img/bg/bg11.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-md-7 col-sm-12 col-12 offset-md-5">
@@ -96,7 +96,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="section-block">
         <div class="container">
             <div class="row">
-                <div class="col-md-6 col-sm-6 col-12"> <img src="img/bg/map.png" class="mb-15-xs" alt="map"> </div>
+                <div class="col-md-6 col-sm-6 col-12"> <img src="<?php echo URL;?>website/img/bg/map.png" class="mb-15-xs" alt="map"> </div>
                 <div class="col-md-5 col-sm-6 col-12 offset-md-1">
                     <div class="section-heading">
                         <h5>We are Available Worldwide</h5>
@@ -121,7 +121,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="row mt-50">
                 <div class="col-md-4 col-sm-4 col-12">
                     <div class="team-member">
-                        <div class="team-member-img"> <img src="img/team/team-05.jpg" alt="img"> </div>
+                        <div class="team-member-img"> <img src="<?php echo URL;?>website/img/team/team-05.jpg" alt="img"> </div>
                         <div class="team-member-text">
                             <h4><a href="about.html#">Jack Semper</a></h4> <span>Majority Owner</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -136,7 +136,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-md-4 col-sm-4 col-12">
                     <div class="team-member">
-                        <div class="team-member-img"> <img src="img/team/team-01.jpg" alt="img"> </div>
+                        <div class="team-member-img"> <img src="<?php echo URL;?>website/img/team/team-01.jpg" alt="img"> </div>
                         <div class="team-member-text">
                             <h4><a href="about.html#">Ann Smith</a></h4> <span>Finance Lead</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -151,7 +151,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 </div>
                 <div class="col-md-4 col-sm-4 col-12">
                     <div class="team-member">
-                        <div class="team-member-img"> <img src="img/team/team-03.jpg" alt="img"> </div>
+                        <div class="team-member-img"> <img src="<?php echo URL;?>website/img/team/team-03.jpg" alt="img"> </div>
                         <div class="team-member-text">
                             <h4><a href="about.html#">Philip Wilson</a></h4> <span>Networking Lead</span>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
@@ -170,12 +170,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <div class="section-clients border-top border-bottom">
         <div class="container">
             <div class="owl-carousel owl-theme clients" id="clients">
-                <div class="item"> <img src="img/partners/partner1.png" alt="partner-image"> </div>
-                <div class="item"> <img src="img/partners/partner2.png" alt="partner-image"> </div>
-                <div class="item"> <img src="img/partners/partner3.png" alt="partner-image"> </div>
-                <div class="item"> <img src="img/partners/partner4.png" alt="partner-image"> </div>
-                <div class="item"> <img src="img/partners/partner5.png" alt="partner-image"> </div>
-                <div class="item"> <img src="img/partners/partner6.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner1.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner2.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner3.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner4.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner5.png" alt="partner-image"> </div>
+                <div class="item"> <img src="<?php echo URL;?>website/img/partners/partner6.png" alt="partner-image"> </div>
             </div>
         </div>
     </div>

@@ -7,7 +7,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <head>
     <title>Photography</title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="img/logos/logo-shortcut.png" />
+    <link rel="shortcut icon" href="<?php echo URL;?>website/img/logos/logo-shortcut.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="<?php echo URL;?>website/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="<?php echo URL;?>website/css/font-awesome.css">
@@ -62,12 +62,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <header>
         <nav id="navigation4" class="container navigation">
             <div class="nav-header">
-                <a class="nav-brand" href="index.php"> <img src="<?php echo URL;?>website/img/logos/logo.png" class="main-logo"  id="main_logo"> </a>
+                <a class="nav-brand" href="/"> <img src="<?php echo URL;?>website/img/logos/logo.png" class="main-logo"  id="main_logo"> </a>
                 <div class="nav-toggle"></div>
             </div>
             <div class="nav-menus-wrapper">
                 <ul class="nav-menu align-to-right">
-                    <li><a href="index.php">Home</a>
+                    <li><a href="/">Home</a>
                       <!--  <div class="megamenu-panel">
                             <div class="megamenu-lists">
                                 <ul class="megamenu-list list-col-4">
@@ -97,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </div>
                         </div>-->
                     </li>
-                    <li><a href="about.php">About</a>
+                    <li><a href="/about">About</a>
                         <!-- <ul class="nav-dropdown">
                             <li><a href="about.html">About Us 01</a></li>
                          <li><a href="about-2.html">About Us 02</a></li>
@@ -166,7 +166,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <li><a href="responsive-videos.html">Responsive Videos</a></li>
                         </ul>
                     </li>-->
-                    <li><a href="contact.php">Contact</a>
+                    <li><a href="/contact">Contact</a>
                     </li>
                 </ul>
             </div>
