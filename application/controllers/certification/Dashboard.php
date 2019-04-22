@@ -25,9 +25,9 @@ class Dashboard extends Certification_Controller
       );
       $this->form_validation->set_rules(
           'password', 'Password',
-          'required|min_length[6]|',
+          'required',
           array(
-                  'required'      => 'Enter Valid  %s.',
+                  'required'      =>  'Invalid  %s.',
           )
         );
     if ($this->form_validation->run() == FALSE)
