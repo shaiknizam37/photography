@@ -2,12 +2,12 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
 <?php  $this->load->view('website/header');?>
-    <div class="page-title-section" style="background-image: url('img/bg/pagetitle.jpg');">
+    <div class="page-title-section" style="background-image: url('<?php echo URL;?>website/img/bg/pagetitle.jpg');">
         <div class="container">
             <h1>Contact</h1>
             <ul>
-                <li><a href="index.php">Home</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </div>
     </div>
