@@ -75,9 +75,9 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
+	'hostname' => 'photographyclub.cggckxxct9vq.us-east-2.rds.amazonaws.com',
 	'username' => 'shaik',
-	'password' => 'Shaik@123',
+	'password' => 'Shaik123',
 	'database' => 'photography_club',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
