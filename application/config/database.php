@@ -74,7 +74,7 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	//'dsn'	=> '',
+	'dsn'	=> '',
 	'hostname' => 'photographyclub.cggckxxct9vq.us-east-2.rds.amazonaws.com',
 	'username' => 'shaik',
 	'password' => 'Shaik123',
