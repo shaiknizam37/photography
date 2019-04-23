@@ -77,7 +77,7 @@ $db['default'] = array(
 	'username' => 'shaik',
 	'password' => 'Shaik@123',
 	'database' => 'photography_club',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
