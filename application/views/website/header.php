@@ -167,6 +167,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         </ul>
                     </li>-->
                     <li><a href="/contact">Contact</a>
+                    <li><a href="/certification">Certification</a>
                     </li>
                 </ul>
             </div>
