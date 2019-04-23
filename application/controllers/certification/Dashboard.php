@@ -14,6 +14,8 @@ class Dashboard extends Certification_Controller
   public function data()
   {
     $this->load->database();
+    $query = $this->db->select('*')->get_where('trainee_persional_data', array('email' =>'shaiknizam37@gmail.com','password'=>'Shaik@123'))->result();
+    print_r($query);
   }
 
 
