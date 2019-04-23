@@ -193,7 +193,7 @@ function &DB($params = '', $query_builder_override = NULL)
 	// Load the DB driver
 	$driver_file = BASEPATH.'database/drivers/'.$params['dbdriver'].'/'.$params['dbdriver'].'_driver.php';
 
-	file_exists($driver_file) OR show_error('Invalid DB driver'.$driver_file);
+	file_exists($driver_file) OR show_error('Invalid DB driver');
 	require_once($driver_file);
 
 	// Instantiate the DB adapter
