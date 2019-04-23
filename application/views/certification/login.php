@@ -48,7 +48,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            <div class="col-sm-10 col-sm-offset-1">
                               <form class="new_user" action="/index.php/certification/dashboard/login" method="post">
                                 <?php echo form_open('form'); ?>
-                                
+
                                  <div class="form-group">
                                     <label class="control-label" for="user_email">Email Address</label>
                                     <div class="control-input">
@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                                  <div class="form-group text-center">
                                     <input type="submit" value="Sign In" class="btn btn-primary btn-md login-button" />
                                  </div>
-                                 
+
                                  <br>
                                  <center>
                                     <a class="link-below-button" href="/certification/forgotpassword">Forgot Password?</a>
