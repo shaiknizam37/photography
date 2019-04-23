@@ -11,7 +11,7 @@ class Dashboard extends Certification_Controller
   {
       $this->load->view('certification/login');
   }
- 
+
   public function login()
   {
 
@@ -35,13 +35,14 @@ class Dashboard extends Certification_Controller
     {
       $this->load->view('certification/login');
     }else{
+        $this->load->database();
         $query = $this->db->select('*')->get_where('trainee_persional_data', array('email' =>$this->input->post('email'),'password'=>$this->input->post('password')))->result();
         if(sizeof($query)==1){
             $this->load->view('certification/dashboard',array('data'=>$query));
         }else{
             $this->load->view('certification/login',array('data'=>'Invalid Credentials'));
         }
-        
+
     }
   }
 }
