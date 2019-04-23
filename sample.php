@@ -9,5 +9,5 @@ if (mysqli_connect_errno())
   while($row=mysqli_fetch_array($a)){
     print_r($row);
   }
-  php_info();
+  echo php_info();
 ?>
