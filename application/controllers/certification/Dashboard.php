@@ -11,13 +11,7 @@ class Dashboard extends Certification_Controller
   {
       $this->load->view('certification/login');
   }
-  public function data()
-  {
-    $this->load->database();
-    $this->load->model('log_no');
-    $query = $this->db->select('log_no')->get_where('log', array('log_no' =>'1'))->result();
-    print_r($query);
-  }
+ 
   public function login()
   {
 
@@ -40,14 +34,14 @@ class Dashboard extends Certification_Controller
     if ($this->form_validation->run() == FALSE)
     {
       $this->load->view('certification/login');
-    }
-    else
-    {
-          $this->load->model('trainee_personal_data');
-          $data=array(
-            'size'=>sizeof($query)
-          );
-           $this->load->view('certification/dashboard',$data);
+    }else{
+        $query = $this->db->select('*')->get_where('trainee_persional_data', array('email' =>$this->input->post('email'),'password'=>$this->input->post('password')))->result();
+        if(sizeof($query)==1){
+            $this->load->view('certification/dashboard',array('data'=>$query));
+        }else{
+            $this->load->view('certification/login',array('data'=>'Invalid Credentials'));
+        }
+        
     }
   }
 }

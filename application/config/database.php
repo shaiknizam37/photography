@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+
 /*
 | -------------------------------------------------------------------
 | DATABASE CONNECTIVITY SETTINGS
@@ -73,11 +74,12 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'hostname' => 'localhost',
-	'username' => 'shaik',
-	'password' => 'Shaik@123',
-	'database' => 'photography_club',
-	'dbdriver' => 'mysql',
+	'dsn'	=> '',
+	'hostname' => 'cctcabs.com.mysql',
+	'username' => 'cctcabs_com',
+	'password' => 'cctcabs123',
+	'database' => 'cctcabs_com',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
